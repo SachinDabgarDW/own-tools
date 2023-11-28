@@ -1,8 +1,6 @@
 import streamlit as st
 import urllib.parse
 import json
-import requests
-from lxml import html
 
 def generate_link(json_data):
     base_url = "http://api.cache.dweave.net/cache/?"
